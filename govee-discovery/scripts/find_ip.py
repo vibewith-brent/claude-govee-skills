@@ -6,6 +6,11 @@
 
 import socket
 import sys
+import os
+
+# Add govee-control scripts to path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '../../govee-control/scripts'))
+
 from govee_lan import GoveeLAN
 
 

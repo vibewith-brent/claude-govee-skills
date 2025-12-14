@@ -1,0 +1,19 @@
+[project]
+name = "claude-govee-skills"
+version = "0.1.0"
+description = "Claude Agent Skills for controlling Govee smart lights via LAN API with pattern generation"
+authors = [
+    {name = "vibewith-brent"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/vibewith-brent/claude-govee-skills"
+Repository = "https://github.com/vibewith-brent/claude-govee-skills"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
